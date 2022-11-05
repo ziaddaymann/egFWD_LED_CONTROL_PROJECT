@@ -1,0 +1,139 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.37.0.0
+Copyright (C) 2022 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Ziad Ayman, Ain Shams University, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.37.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.18
+Assembler:       Armasm.exe V6.18
+Linker/Locator:  ArmLink.exe V6.18
+Library Manager: ArmAr.exe V6.18
+Hex Converter:   FromElf.exe V6.18
+CPU DLL:         SARMCM3.DLL V5.37.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      SiLabs\SLAB_CM_Keil.dll V1.0.0.8
+Dialog DLL:      TCM.DLL V1.56.1.0
+ 
+<h2>Project:</h2>
+C:\Users\Ziad Ayman\Downloads\LED_CONTROL_PROJECT-main\COTS.uvprojx
+Project File Date:  11/04/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.18', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Build target 'Target 1'
+MCAL/DIO/Config/Dio_PBcfg.c(13): warning: In file included from...
+./RTE/_Target_1\../../MCAL/DIO/inc/Dio.h(20): warning: In file included from...
+./RTE/_Target_1\../../LIB/Std_Types.h(17): warning: In file included from...
+./RTE/_Target_1\../../LIB/Platform_Types.h(79): warning: 'long long' is an extension when C99 mode is not enabled [-Wlong-long]
+typedef unsigned long long    uint64;         /*       0..18446744073709551615  */
+                 ^
+./RTE/_Target_1\../../LIB/Platform_Types.h(80): warning: 'long long' is an extension when C99 mode is not enabled [-Wlong-long]
+typedef signed long long      sint64;         /* -9223372036854775808 .. 9223372036854775807 */
+               ^
+MCAL/DIO/Config/Dio_PBcfg.c(17): warning: suggest braces around initialization of subobject [-Wmissing-braces]
+const Dio_Config Config = {LED1_PORT_ID,LED1_CHANNEL_ID};
+                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                           {                           }
+./RTE/_Target_1\../../MCAL/DIO/inc/Dio_Cfg.h(28): note: expanded from macro 'LED1_PORT_ID'
+#define LED1_PORT_ID                (Dio_PortType)5 /* PORTF */
+                                    ^
+MCAL/DIO/Config/Dio_PBcfg.c(17): warning: no newline at end of file [-Wnewline-eof]
+const Dio_Config Config = {LED1_PORT_ID,LED1_CHANNEL_ID};
+                                                         ^
+4 warnings generated.
+compiling Dio_PBcfg.c...
+HAL/LED/src/Led.c(15): warning: In file included from...
+./RTE/_Target_1\../../MCAL/DIO/inc/Dio.h(20): warning: In file included from...
+./RTE/_Target_1\../../LIB/Std_Types.h(17): warning: In file included from...
+./RTE/_Target_1\../../LIB/Platform_Types.h(79): warning: 'long long' is an extension when C99 mode is not enabled [-Wlong-long]
+typedef unsigned long long    uint64;         /*       0..18446744073709551615  */
+                 ^
+./RTE/_Target_1\../../LIB/Platform_Types.h(80): warning: 'long long' is an extension when C99 mode is not enabled [-Wlong-long]
+typedef signed long long      sint64;         /* -9223372036854775808 .. 9223372036854775807 */
+               ^
+HAL/LED/src/Led.c(34): warning: unused variable 'state' [-Wunused-variable]
+    Dio_LevelType state = Dio_FlipChannel(DioConf_LED1_CHANNEL_ID_INDEX);
+                  ^
+3 warnings generated.
+compiling Led.c...
+MCAL/DIO/src/Dio.c(13): warning: In file included from...
+./RTE/_Target_1\../../MCAL/DIO/inc/Dio.h(20): warning: In file included from...
+./RTE/_Target_1\../../LIB/Std_Types.h(17): warning: In file included from...
+./RTE/_Target_1\../../LIB/Platform_Types.h(79): warning: 'long long' is an extension when C99 mode is not enabled [-Wlong-long]
+typedef unsigned long long    uint64;         /*       0..18446744073709551615  */
+                 ^
+./RTE/_Target_1\../../LIB/Platform_Types.h(80): warning: 'long long' is an extension when C99 mode is not enabled [-Wlong-long]
+typedef signed long long      sint64;         /* -9223372036854775808 .. 9223372036854775807 */
+               ^
+2 warnings generated.
+compiling Dio.c...
+App/main.c(15): warning: In file included from...
+./RTE/_Target_1\../../HAL/LED/inc/Led.h(17): warning: In file included from...
+./RTE/_Target_1\../../LIB/Std_Types.h(17): warning: In file included from...
+./RTE/_Target_1\../../LIB/Platform_Types.h(79): warning: 'long long' is an extension when C99 mode is not enabled [-Wlong-long]
+typedef unsigned long long    uint64;         /*       0..18446744073709551615  */
+                 ^
+./RTE/_Target_1\../../LIB/Platform_Types.h(80): warning: 'long long' is an extension when C99 mode is not enabled [-Wlong-long]
+typedef signed long long      sint64;         /* -9223372036854775808 .. 9223372036854775807 */
+               ^
+App/main.c(16): warning: In file included from...
+./RTE/_Target_1\../../MCAL/IntCtrl/inc/IntCtrl.h(25): warning: In file included from...
+./RTE/_Target_1\../../MCAL/IntCtrl/inc/IntCtrl_Cfg.h(17): warning: non-portable path to file '"../../MCAL/IntCtrl/inc/IntCtrl_Regs.h"'; specified path differs in case from file name on disk [-Wnonportable-include-path]
+#include "../../MCAL/IntCtrl/inc/IntCtrl_regs.h"
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+         "../../MCAL/IntCtrl/inc/IntCtrl_Regs.h"
+App/main.c(18): warning: In file included from...
+./RTE/_Target_1\../../MCAL/PORT/inc/Port.h(24): warning: In file included from...
+./RTE/_Target_1\../../MCAL/PORT/inc/Port_Cfg.h(189): warning: no newline at end of file [-Wnewline-eof]
+#endif /* PORT_CFG_H */
+                       ^
+App/main.c(23): warning: no previous prototype for function 'SystickNewTick' [-Wmissing-prototypes]
+void SystickNewTick(void)
+     ^
+App/main.c(23): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void SystickNewTick(void)
+^
+static 
+5 warnings generated.
+compiling main.c...
+linking...
+Program Size: Code=3844 RO-data=988 RW-data=0 ZI-data=632  
+".\Objects\COTS.axf" - 0 Error(s), 14 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.9.0.pack
+                ARM.CMSIS.5.9.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.6.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.TM4C_DFP.1.1.0.pack
+                Keil.TM4C_DFP.1.1.0
+                Texas Instruments Tiva C Series Device Support and Examples
+   * Component: Startup Version: 1.0.1
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/_Target_1
+  C:/Users/Ziad Ayman/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include
+  C:/Users/Ziad Ayman/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.6.0
+
+   * Component: Keil::Device:Startup:1.0.1
+      Source file:   Device/Source/ARM/startup_TM4C123.s
+      Include file:  Device/Include/TM4C123/TM4C123.h
+      Source file:   Device/Source/system_TM4C123.c
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>

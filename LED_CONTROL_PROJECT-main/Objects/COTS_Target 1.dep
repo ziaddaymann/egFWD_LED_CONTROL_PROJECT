@@ -1,0 +1,107 @@
+Dependencies for Project 'COTS', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 6180000::V6.18::ARMCLANG
+F (.\MCAL\DIO\Config\Dio_PBcfg.c)(0x6365A6BA)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-I"C:/Users/Ziad Ayman/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include"-I"C:/Users/Ziad Ayman/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123"-D__UVISION_VERSION="537" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/dio_pbcfg.o -MD)
+I (RTE\_Target_1\..\..\MCAL\DIO\inc\Dio.h)(0x6365BA1A)
+I (RTE\_Target_1\..\..\LIB\Std_Types.h)(0x6365A879)
+I (RTE\_Target_1\..\..\LIB\Platform_Types.h)(0x6365A204)
+I (RTE\_Target_1\..\..\LIB\Compiler.h)(0x6365A1D6)
+I (RTE\_Target_1\..\..\MCAL\DIO\inc\Dio_Cfg.h)(0x6365B8F7)
+I (RTE\_Target_1\..\..\LIB\Common_Macros.h)(0x6365A1E1)
+F (.\MCAL\DIO\inc\Dio.h)(0x6365BA1A)()
+F (.\MCAL\DIO\inc\Dio_Cfg.h)(0x6365B8F7)()
+F (.\MCAL\DIO\inc\Dio_Regs.h)(0x6365A357)()
+F (.\MCAL\DIO\src\Dio.c)(0x6365BA1E)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-I"C:/Users/Ziad Ayman/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include"-I"C:/Users/Ziad Ayman/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123"-D__UVISION_VERSION="537" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/dio.o -MD)
+I (RTE\_Target_1\..\..\MCAL\DIO\inc\Dio.h)(0x6365BA1A)
+I (RTE\_Target_1\..\..\LIB\Std_Types.h)(0x6365A879)
+I (RTE\_Target_1\..\..\LIB\Platform_Types.h)(0x6365A204)
+I (RTE\_Target_1\..\..\LIB\Compiler.h)(0x6365A1D6)
+I (RTE\_Target_1\..\..\MCAL\DIO\inc\Dio_Cfg.h)(0x6365B8F7)
+I (RTE\_Target_1\..\..\LIB\Common_Macros.h)(0x6365A1E1)
+I (RTE\_Target_1\..\..\MCAL\DIO\inc\Dio_Regs.h)(0x6365A357)
+F (.\MCAL\IntCtrl\inc\IntCtrl.h)(0x6365A944)()
+F (.\MCAL\IntCtrl\inc\IntCtrl_Cfg.h)(0x6365A3A6)()
+F (.\MCAL\IntCtrl\inc\IntCtrl_Regs.h)(0x6365A3BF)()
+F (.\MCAL\IntCtrl\Config\IntCtrl_PBcfg.c)(0x6365A964)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-I"C:/Users/Ziad Ayman/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include"-I"C:/Users/Ziad Ayman/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123"-D__UVISION_VERSION="537" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/intctrl_pbcfg.o -MD)
+I (RTE\_Target_1\..\..\MCAL\IntCtrl\inc\IntCtrl.h)(0x6365A944)
+I (RTE\_Target_1\..\..\LIB\Std_Types.h)(0x6365A879)
+I (RTE\_Target_1\..\..\LIB\Platform_Types.h)(0x6365A204)
+I (RTE\_Target_1\..\..\LIB\Compiler.h)(0x6365A1D6)
+I (RTE\_Target_1\..\..\MCAL\IntCtrl\inc\IntCtrl_Cfg.h)(0x6365A3A6)
+I (RTE\_Target_1\..\..\MCAL\IntCtrl\inc\IntCtrl_regs.h)(0x6365A3BF)
+I (RTE\_Target_1\..\..\LIB\Common_Macros.h)(0x6365A1E1)
+F (.\MCAL\IntCtrl\src\IntCtrl.c)(0x6365A946)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-I"C:/Users/Ziad Ayman/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include"-I"C:/Users/Ziad Ayman/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123"-D__UVISION_VERSION="537" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/intctrl.o -MD)
+I (RTE\_Target_1\..\..\MCAL\IntCtrl\inc\IntCtrl.h)(0x6365A944)
+I (RTE\_Target_1\..\..\LIB\Std_Types.h)(0x6365A879)
+I (RTE\_Target_1\..\..\LIB\Platform_Types.h)(0x6365A204)
+I (RTE\_Target_1\..\..\LIB\Compiler.h)(0x6365A1D6)
+I (RTE\_Target_1\..\..\MCAL\IntCtrl\inc\IntCtrl_Cfg.h)(0x6365A3A6)
+I (RTE\_Target_1\..\..\MCAL\IntCtrl\inc\IntCtrl_regs.h)(0x6365A3BF)
+I (RTE\_Target_1\..\..\LIB\Common_Macros.h)(0x6365A1E1)
+F (.\MCAL\PORT\Config\Port_PBcfg.c)(0x6365A8B5)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-I"C:/Users/Ziad Ayman/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include"-I"C:/Users/Ziad Ayman/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123"-D__UVISION_VERSION="537" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/port_pbcfg.o -MD)
+I (RTE\_Target_1\..\..\MCAL\PORT\inc\Port.h)(0x6365A946)
+I (RTE\_Target_1\..\..\LIB\Std_Types.h)(0x6365A879)
+I (RTE\_Target_1\..\..\LIB\Platform_Types.h)(0x6365A204)
+I (RTE\_Target_1\..\..\LIB\Compiler.h)(0x6365A1D6)
+I (RTE\_Target_1\..\..\MCAL\PORT\inc\Port_Cfg.h)(0x6365A945)
+I (RTE\_Target_1\..\..\LIB\Common_Macros.h)(0x6365A1E1)
+F (.\MCAL\PORT\inc\Port.h)(0x6365A946)()
+F (.\MCAL\PORT\inc\Port_Cfg.h)(0x6365A945)()
+F (.\MCAL\PORT\inc\Port_Regs.h)(0x6365A45B)()
+F (.\MCAL\PORT\src\Port.c)(0x6365A945)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-I"C:/Users/Ziad Ayman/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include"-I"C:/Users/Ziad Ayman/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123"-D__UVISION_VERSION="537" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/port.o -MD)
+I (RTE\_Target_1\..\..\MCAL\PORT\inc\Port.h)(0x6365A946)
+I (RTE\_Target_1\..\..\LIB\Std_Types.h)(0x6365A879)
+I (RTE\_Target_1\..\..\LIB\Platform_Types.h)(0x6365A204)
+I (RTE\_Target_1\..\..\LIB\Compiler.h)(0x6365A1D6)
+I (RTE\_Target_1\..\..\MCAL\PORT\inc\Port_Cfg.h)(0x6365A945)
+I (RTE\_Target_1\..\..\LIB\Common_Macros.h)(0x6365A1E1)
+I (RTE\_Target_1\..\..\MCAL\PORT\inc\Port_Regs.h)(0x6365A45B)
+F (.\MCAL\SYSTICK\inc\SysTick.h)(0x6365A496)()
+F (.\MCAL\SYSTICK\inc\SysTick_Regs.h)(0x6365A4AB)()
+F (.\MCAL\SYSTICK\src\SysTick.c)(0x6365A4B8)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-I"C:/Users/Ziad Ayman/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include"-I"C:/Users/Ziad Ayman/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123"-D__UVISION_VERSION="537" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/systick.o -MD)
+I (RTE\_Target_1\..\..\MCAL\IntCtrl\inc\IntCtrl.h)(0x6365A944)
+I (RTE\_Target_1\..\..\LIB\Std_Types.h)(0x6365A879)
+I (RTE\_Target_1\..\..\LIB\Platform_Types.h)(0x6365A204)
+I (RTE\_Target_1\..\..\LIB\Compiler.h)(0x6365A1D6)
+I (RTE\_Target_1\..\..\MCAL\IntCtrl\inc\IntCtrl_Cfg.h)(0x6365A3A6)
+I (RTE\_Target_1\..\..\MCAL\IntCtrl\inc\IntCtrl_regs.h)(0x6365A3BF)
+I (RTE\_Target_1\..\..\LIB\Common_Macros.h)(0x6365A1E1)
+I (RTE\_Target_1\..\..\LIB\tm4c123gh6pm_registers.h)(0x6365A246)
+F (.\HAL\LED\inc\Led.h)(0x6365B568)()
+F (.\HAL\LED\src\Led.c)(0x6365B56A)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-I"C:/Users/Ziad Ayman/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include"-I"C:/Users/Ziad Ayman/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123"-D__UVISION_VERSION="537" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/led.o -MD)
+I (RTE\_Target_1\..\..\MCAL\DIO\inc\Dio.h)(0x6365BA1A)
+I (RTE\_Target_1\..\..\LIB\Std_Types.h)(0x6365A879)
+I (RTE\_Target_1\..\..\LIB\Platform_Types.h)(0x6365A204)
+I (RTE\_Target_1\..\..\LIB\Compiler.h)(0x6365A1D6)
+I (RTE\_Target_1\..\..\MCAL\DIO\inc\Dio_Cfg.h)(0x6365B8F7)
+I (RTE\_Target_1\..\..\LIB\Common_Macros.h)(0x6365A1E1)
+I (RTE\_Target_1\..\..\HAL\LED\inc\Led.h)(0x6365B568)
+F (.\App\main.c)(0x6365B411)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-I"C:/Users/Ziad Ayman/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include"-I"C:/Users/Ziad Ayman/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123"-D__UVISION_VERSION="537" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/main.o -MD)
+I (RTE\_Target_1\..\..\HAL\LED\inc\Led.h)(0x6365B568)
+I (RTE\_Target_1\..\..\LIB\Std_Types.h)(0x6365A879)
+I (RTE\_Target_1\..\..\LIB\Platform_Types.h)(0x6365A204)
+I (RTE\_Target_1\..\..\LIB\Compiler.h)(0x6365A1D6)
+I (RTE\_Target_1\..\..\MCAL\IntCtrl\inc\IntCtrl.h)(0x6365A944)
+I (RTE\_Target_1\..\..\MCAL\IntCtrl\inc\IntCtrl_Cfg.h)(0x6365A3A6)
+I (RTE\_Target_1\..\..\MCAL\IntCtrl\inc\IntCtrl_regs.h)(0x6365A3BF)
+I (RTE\_Target_1\..\..\LIB\Common_Macros.h)(0x6365A1E1)
+I (RTE\_Target_1\..\..\MCAL\DIO\inc\Dio.h)(0x6365BA1A)
+I (RTE\_Target_1\..\..\MCAL\DIO\inc\Dio_Cfg.h)(0x6365B8F7)
+I (RTE\_Target_1\..\..\MCAL\PORT\inc\Port.h)(0x6365A946)
+I (RTE\_Target_1\..\..\MCAL\PORT\inc\Port_Cfg.h)(0x6365A945)
+I (RTE\_Target_1\..\..\MCAL\SYSTICK\inc\SysTick.h)(0x6365A496)
+F (.\LIB\Common_Macros.h)(0x6365A1E1)()
+F (.\LIB\Compiler.h)(0x6365A1D6)()
+F (.\LIB\Platform_Types.h)(0x6365A204)()
+F (.\LIB\Std_Types.h)(0x6365A879)()
+F (.\LIB\tm4c123gh6pm_registers.h)(0x6365A246)()
+F (RTE/Device/TM4C123GH6PM/startup_TM4C123.s)(0x51B76296)(--target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -masm=auto -c-gdwarf-4 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/_Target_1-I"C:/Users/Ziad Ayman/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include"-I"C:/Users/Ziad Ayman/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123"-Wa,armasm,--pd,"__UVISION_VERSION SETA 537" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"TM4C123GH6PM SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_tm4c123.o)
+F (RTE/Device/TM4C123GH6PM/system_TM4C123.c)(0x550AE46A)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-I"C:/Users/Ziad Ayman/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include"-I"C:/Users/Ziad Ayman/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123"-D__UVISION_VERSION="537" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/system_tm4c123.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x625333C8)
+I (C:\Users\Ziad Ayman\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123.h)(0x530F7186)
+I (C:\Users\Ziad Ayman\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h)(0x551060BC)
+I (C:\Users\Ziad Ayman\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x62701DCE)
+I (C:\Users\Ziad Ayman\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x62701DCE)
+I (C:\Users\Ziad Ayman\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x62701DCE)
+I (C:\Users\Ziad Ayman\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x62701DCE)
+I (C:\Users\Ziad Ayman\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x62701DCE)
+I (C:\Users\Ziad Ayman\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\system_TM4C123.h)(0x51B76296)
